@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pönnsur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Ömmu Pönnsur</h1>
+      <nav>
+        <a href="timi5.html">Uppskriftin</a>
+        <a href="hafa-samband.html">Hafa samband</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Um uppskriftina</h2>
+        <p>þunnar íslenskar pönnukökur sem er bestar með sykri</p>
+        <img src="myndir/images.jpg" alt="íslenskar pönnukökur" />
+      </section>
+      <section class="kort">
+        <h2>Hráefni</h2>
+        <ul>
+          <li>250g hveiti</li>
+          <li>2 egg</li>
+          <li>5dl mjólk</li>
+          <li>2 msk sykur</li>
+          <li>50g smjör, brætt</li>
+          <li>1 tsk vanilludropar</li>
+        </ul>
+      </section>
+      <section class="kort">
+        <h2>Skrefin</h2>
+        <ol>
+          Hræra saman hveiti og sykur og helminginn af mjólkinni
+        </ol>
+        <ol>
+          bættu eggjum útí og svo restinni af mjólkinni
+        </ol>
+        <ol>
+          hrærðu saman brædda smjörinu og vanilludropum
+        </ol>
+        <ol>
+          steiktu þunnar pönnukökur á heitri pönnu
+        </ol>
+      </section>
+      <section>
+        <h2>Upplýsingar</h2>
+        <table border="1">
+          <tr>
+            <th>undirbúningur</th>
+            <th>tími að elda</th>
+            <th>skammtar</th>
+          </tr>
+          <tr>
+            <td>10 mín</td>
+            <td>30 mín</td>
+            <td>20</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h2>Skildu eftir umsögn</h2>
+        <form>
+          <label for="nafn">Nafn</label>
+          <input type="text" id="nafn" />
+
+          <label for="netfang">Netfang</label>
+          <input type="email" id="netfang" />
+
+          <label for="umsogn">Umsögn</label>
+          <textarea id="umsogn"></textarea>
+
+          <label for="einkunn">Einkunn</label>
+          <input type="number" id="einkunn" min="1" max="5" />
+          <button type="submit">Senda inn</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Keli</p>
+    </footer>
+  </body>
+</html>
